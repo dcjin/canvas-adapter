@@ -22,6 +22,7 @@
   "bugs": {
     "url": "https://github.com/dcjin/canvas-adapter/issues"
   },
+  "types": "index.d.ts",
   "homepage": "https://github.com/dcjin/canvas-adapter#readme",
   "devDependencies": {
     "@types/jest": "^24.9.0",
@@ -42,6 +43,5 @@
     "webpack": "^4.41.5",
     "webpack-stream": "^5.2.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
