@@ -2,8 +2,9 @@
   "name": "canvas-adapter",
   "version": "1.0.0",
   "description": "canvas api adapter for browser or wechat-miniprogram and etc.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
+    "build": "gulp",
     "test": "jest --forceExit --coverage --verbose --config=jest.config.js",
     "test-watch": "jest --watch"
   },
@@ -24,18 +25,23 @@
   "homepage": "https://github.com/dcjin/canvas-adapter#readme",
   "devDependencies": {
     "@types/jest": "^24.9.0",
+    "@typescript-eslint/parser": "^2.16.0",
     "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "del": "^5.1.0",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "gulp": "^4.0.2",
     "jest": "^24.9.0",
     "ts-jest": "^24.3.0",
-    "typescript": "^3.7.4"
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-stream": "^5.2.1"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^2.16.0"
   }
 }
